@@ -10,7 +10,7 @@ tolerance = 10 ** (-4)
 learn_rate = 0.0001
 iteration = 100
 
-path = 'code/result/drying_ratio.xlsx'
+path = 'result/drying_ratio.xlsx'
 
 table = pd.read_excel(path,header=[0],dtype=float).dropna()
 def f0(time, tau, b):
